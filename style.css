@@ -1,0 +1,142 @@
+
+
+
+.form{
+
+    position: relative;
+}
+
+.form .fa-search{
+
+    position: absolute;
+    top:20px;
+    left: 20px;
+    color: #9ca3af;
+
+}
+
+.form span{
+
+        position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+    border-left: 1px solid #d1d5db;
+
+}
+
+.left-pan{
+    padding-left: 7px;
+}
+
+.left-pan i{
+   
+   padding-left: 10px;
+}
+
+.form-input{
+
+    height: 55px;
+    text-indent: 33px;
+    border-radius: 10px;
+}
+
+.form-input:focus{
+
+    box-shadow: none;
+    border:none;
+}
+
+.modal-content {
+    background: transparent;
+    border: none;
+  }
+  .modal-body {
+    background: rgba(255, 255, 255, 0); /* Slightly transparent white background */
+    
+  }
+  .form {
+    position: relative;
+    width: 100%;
+  }
+  .form-input {
+    width: 100%;
+    padding-left: 40px;
+    
+  }
+  .fa-search {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #999;
+  }
+  .left-pan {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #999;
+  }
+
+
+
+
+  /* Define a keyframe animation for sliding in the text */
+@keyframes slideInText {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Apply the animation to the slide-in-text class */
+.slide-in-text {
+  animation: slideInText 0.5s ease-in-out forwards;
+}
+
+/* Hide the carousel controls on extra small devices */
+@media (max-width: 576px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+.card_main {
+  width: 30rem;
+  height: 60vh;
+  
+  
+   /* Adjust margin as needed */
+}
+
+/* Styles for large devices (e.g., tablets, small laptops) */
+@media (min-width: 992px) {
+  .card_main{
+    width: 30rem; /* Adjust width for large devices */
+    height: 70vh; 
+    
+    /* Adjust height for large devices */
+  }
+}
+
+/* Styles for small devices (e.g., phones) */
+@media (max-width: 576px) {
+  .card_main{
+    width: 100%; /* Full width for small devices */
+    height: 30vh;
+    
+    
+     /* Smaller height for small devices */
+  }
+}
